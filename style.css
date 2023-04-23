@@ -1,0 +1,155 @@
+body {
+  max-width: 500px ;
+  margin: 0 auto ;
+  background-image: url("loh.png");
+  height: 100vh;
+  background-position: center ;
+  background-size:cover;
+  background-attachment : fixed ;
+  text-transform: capitalize;
+    animation: gradient 10s ease infinite;
+    animation: jor 3s ease infinite;
+
+
+  
+}
+
+.wel img {
+  width: 300px;
+    animation: tras 0.8s ease-in-out ;
+
+
+}
+.wel {
+  display: flex ;
+  flex-direction: column ;
+  align-items: center ;
+  justify-content: center ;
+
+
+}
+
+h2 {
+  font-size: 50px ;
+  font-family: 'pacifico', cursive ;
+  text-align: center ;
+  font-weight: bold;
+  color: black;
+  animation: tras 0.5s ease-in-out ;
+
+
+}
+.container {
+  flex-direction: column ;
+background-image: url("bg.png");
+width: 350px;
+  height: 300px;
+  margin: -20px 100px 0px 40px;
+  border-radius: 10% ;
+  box-shadow: 2px 2px 2px 2px black;
+  border:2px solid white ;
+  animation: gradient 40s ease infinite ;
+
+  
+}
+.A{
+  width:250px;
+  height: 40px;
+  border: none ;
+  margin: 0px 0px 0px 0px ;
+  font-family: monospace;
+  font-size: 80%;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  text-align: center ;
+    animation: job 1s ease;
+
+
+
+}
+.B{
+  width:250px;
+  height: 40px;
+  border: none ;
+  margin: 10px 0px 0px 0px ;
+  font-family: monospace;
+  font-size: 80%;
+   box-shadow: 1px 1px 1px 1px #ccc;
+  text-align: center ;
+   animation: job 1s ease;
+
+
+}
+button {
+  width:255px;
+  height: 40px;
+  background: green ;
+  color: white ;
+  border: none;
+  margin: 10px 0px 0px 0px ;
+  animation: job 1s ease;
+
+
+
+}
+.jere {
+ margin: -20px 0px 0px 15%;
+
+}
+
+a :hover {
+ background: darkgreen ;
+ color: red;
+ border: 2px solid snow;
+
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50% ;
+  }
+ 50%{
+    background-position: 50% 100% ;
+  }
+  100% {
+     background-position: 0% 50%;
+   }
+}
+@keyframes jor {
+  0% {
+   width: 100%;
+  }
+ 50%{
+       width: 102%;
+
+  }
+  100% {
+        width: 100%;
+
+   }
+}
+
+@keyframes tras {
+  0% {
+       width: 0px;
+
+  }
+  100% {
+       width: 300px;
+
+
+  }
+ 
+}
+@keyframes job {
+  0% {
+    opacity: 0 ;
+    width: 0px ;
+    height: 0px ;
+  }
+ }
+ 100% {
+       opacity: 100%;
+       width: 100%;
+       height: 100%;
+           }
+}
+
